@@ -21,7 +21,7 @@ static BOOL useTestInstance = NO;
 static NSDictionary *savedLaunchOptions;
 static BOOL savedIsReferrable;
 static NSString *branchKey;
-static BOOL deferInitializationForJSLoad = NO;
+static BOOL deferInitializationForJSLoad = YES;
 static NSURL *originalURL;
 
 static NSString * const IdentFieldName = @"ident";
